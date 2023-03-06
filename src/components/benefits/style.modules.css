@@ -1,0 +1,23 @@
+
+.item{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    min-width: 30rem;
+    padding: 2rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    cursor: grab;
+}
+.sliderContainer{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+

@@ -1,0 +1,28 @@
+.divContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.textContainer{
+    position: absolute;
+}
+.divText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 70px;
+    font-family:sans-serif;
+    padding-bottom: 10px;
+}
+.text{
+    font-weight: lighter;
+}
+@media  (max-width: 768px){
+    .title{
+        font-size: 50px;
+    }
+}
