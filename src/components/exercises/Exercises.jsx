@@ -1,5 +1,5 @@
 import React from 'react'
-import ExerciseShow from '../ExerciseShow/ExerciseShow'
+import ExerciseShow from '../exerciseShow/ExerciseShow'
 
 const Exercises = (props) => {
   return (
